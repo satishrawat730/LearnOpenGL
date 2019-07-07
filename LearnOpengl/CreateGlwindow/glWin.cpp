@@ -28,19 +28,19 @@ int main()
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
   glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
 
-  /*GLFWwindow* window = glfwCreateWindow(640, 480, "My Title", NULL, NULL);
+  GLFWwindow* window = glfwCreateWindow(640, 480, "My Title", NULL, NULL);
   if (!window)
   {
     cout << "Window or OpenGL context creation failed";
-  }*/
+  }
 
-  /*while (!glfwWindowShouldClose(window))
+  while (!glfwWindowShouldClose(window))
   {
       glfwSwapBuffers(window);
       glfwPollEvents();
   }
 
-  glfwDestroyWindow(window);*/
+  glfwDestroyWindow(window);
   glfwTerminate();
 
   exit(EXIT_SUCCESS);
